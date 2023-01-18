@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lab2WPF.testScores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2WPF"
+        mc:Ignorable="d"
+        Title="testScores" Height="450" Width="800">
+	<Grid>
+		<TextBox x:Name="grade1" HorizontalAlignment="Left" Margin="405,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="grade2" HorizontalAlignment="Left" Margin="405,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="grade3" HorizontalAlignment="Left" Margin="405,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="average" HorizontalAlignment="Left" Margin="405,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="letter" HorizontalAlignment="Left" Margin="405,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="gradeOne" Content="Insert first test score:" HorizontalAlignment="Left" Margin="271,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.439,0.669"/>
+		<Label x:Name="gradeTwo" Content="Insert second test score:" HorizontalAlignment="Left" Margin="253,151,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="gradeThree" Content="Insert third test score:" HorizontalAlignment="Left" Margin="259,201,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="avg" Content="Average:" HorizontalAlignment="Left" Margin="328,297,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="letterGrade" Content="Letter grade:" HorizontalAlignment="Left" Margin="307,340,0,0" VerticalAlignment="Top"/>
+		<Button x:Name="button" Content="Calculate" HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" Click="button_Click"/>
+		<Label x:Name="title" Content="TEST SCORES" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Height="38" Width="126" FontSize="20"/>
+
+	</Grid>
+</Window>

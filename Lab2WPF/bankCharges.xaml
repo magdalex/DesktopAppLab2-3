@@ -1,0 +1,24 @@
+﻿<Window x:Class="Lab2WPF.bankCharges"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2WPF"
+        mc:Ignorable="d"
+        Title="bankCharges" Height="450" Width="800">
+	<Grid>
+		<Label Content="Enter your current balance:" HorizontalAlignment="Left" Margin="244,101,0,0" VerticalAlignment="Top"/>
+		<Label Content="Enter the amount of cheques you've written this month:" HorizontalAlignment="Left" Margin="92,147,0,0" VerticalAlignment="Top"/>
+		<Label Content="The bank's service fees for the month are:" HorizontalAlignment="Left" Margin="166,248,0,0" VerticalAlignment="Top"/>
+		<Label Content="Amount of cheques written:" HorizontalAlignment="Left" Margin="239,297,0,0" VerticalAlignment="Top"/>
+		<Label Content="Your ending balance is:" HorizontalAlignment="Left" Margin="264,349,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="currentBalanceBox" HorizontalAlignment="Left" Margin="419,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="amountChequesBox" HorizontalAlignment="Left" Margin="419,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="serviceFeesBox" HorizontalAlignment="Left" Margin="419,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="chequesBox2" HorizontalAlignment="Left" Margin="419,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<TextBox x:Name="endBalanceBox" HorizontalAlignment="Left" Margin="419,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Button Content="Calculate" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"/>
+		<Label x:Name="title" Content="BANK CHARGES" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+	</Grid>
+</Window>
