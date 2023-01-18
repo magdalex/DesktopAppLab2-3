@@ -1,0 +1,18 @@
+﻿<Window x:Class="ShippingChargesWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShippingChargesWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Enter the weight of the package:" HorizontalAlignment="Left" Margin="201,170,0,0" VerticalAlignment="Top"/>
+        <Label Content="The shipping charges are:" HorizontalAlignment="Left" Margin="237,298,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="weightBox" HorizontalAlignment="Left" Margin="423,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="chargeBox" HorizontalAlignment="Left" Margin="423,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calculate" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,242,0,0" Click="Button_Click"/>
+        <Label x:Name="title" Content="SHIPPING CHARGES" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
